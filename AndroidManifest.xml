@@ -1538,6 +1538,7 @@
         <activity android:name=".crom.InterfaceSettings" />
         <activity android:name=".crom.PerformanceSettings" />
         <activity android:name=".crom.Lockscreens" />
+        <activity android:name=".crom.LockscreenButtons" />
         <activity android:name=".crom.Navbar" />
         <activity android:name=".crom.NavRingTargets" />
         <activity android:name=".crom.NotificationDrawerStyle" />
