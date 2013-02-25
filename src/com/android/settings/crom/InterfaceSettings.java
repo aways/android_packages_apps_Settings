@@ -112,6 +112,7 @@ public class InterfaceSettings extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mContext = getActivity();
 
         // Load the preferences from an XML resource
         addPreferencesFromResource(R.xml.interface_settings);

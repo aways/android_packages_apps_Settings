@@ -5119,6 +5119,15 @@
     <string name="notification_shortcuts_icon_picker_twitter">Twitter</string>
     <string name="notification_shortcuts_icon_picker_unlock">Unlock</string>
 
+    <!-- Display Animation -->
+    <string name="system_power_crt_screen_off_title">CRT Screen Off</string>
+    <string name="system_power_crt_screen_off_summary">Show animation when screen is turned off</string>
+    <string name="system_power_crt_mode_title">CRT Animation Mode</string>
+    <string name="system_power_crt_mode_dialog_title">Show CRT Animation</string>
+    <string name="system_power_crt_mode_horizontal">Portrait Horizontal</string>
+    <string name="system_power_crt_mode_vertical">Portrait Vertical</string>
+    <string name="system_power_crt_mode_both">Orientation Dependent</string>
+
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
