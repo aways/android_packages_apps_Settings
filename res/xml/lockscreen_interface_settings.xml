@@ -22,7 +22,7 @@
         android:fragment="com.android.settings.SecuritySettings"
         android:title="@string/screen_security_category"
         android:summary="@string/screen_security_summary">
-        <extra android:name="carbon_security" android:value="true" />
+        <extra android:name="crom_security" android:value="true" />
      </PreferenceScreen>
 
      <ListPreference
@@ -58,7 +58,7 @@
      </PreferenceScreen>
 
      <Preference
-        android:fragment="com.android.settings.carbon.LockscreenTargets"
+        android:fragment="com.android.settings.crom.LockscreenTargets"
         android:key="lockscreen_targets"
         android:summary="@string/lockscreen_target_summary"
         android:title="@string/lockscreen_target_title" />
@@ -69,7 +69,7 @@
         android:summary="@string/lockscreen_eight_targets_summary" />
 
      <Preference
-        android:fragment="com.android.settings.carbon.LockscreenShortcuts"
+        android:fragment="com.android.settings.crom.LockscreenShortcuts"
         android:key="lockscreen_shortcuts"
         android:summary="@string/lockscreen_shortcuts_summary"
         android:title="@string/lockscreen_shortcuts_title" />
@@ -116,7 +116,7 @@
         android:summary="@string/lockscreen_quick_unlock_control_summary" />
 
      <PreferenceScreen
-        android:fragment="com.android.settings.carbon.LockscreenButtons"
+        android:fragment="com.android.settings.crom.LockscreenButtons"
         android:key="lockscreen_buttons"
         android:title="@string/lockscreen_buttons_title"
         android:summary="@string/lockscreen_buttons_summary" />

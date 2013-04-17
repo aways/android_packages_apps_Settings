@@ -58,28 +58,38 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
-    <!-- Carbon Links -->
-    <header android:id="@+id/carbon_section"
-        android:title="@string/header_category_carbon_links" /> 
+    <!-- C-RoM Links -->
+    <header android:id="@+id/crom_section"
+        android:title="@string/header_category_crom_links" /> 
 
-    <!-- Carbon Settings -->
+    <!-- C-RoM Settings -->
     <header
-        android:id="@+id/carbon_settings"
-        android:icon="@drawable/ic_settings_about_carbon"
-        android:title="@string/carbon_settings_title"
-        android:fragment="com.android.settings.carbon.CarbonSettings" />
+        android:id="@+id/crom_settings"
+        android:icon="@drawable/ic_settings_about_crom"
+        android:title="@string/crom_settings_title"
+        android:fragment="com.android.settings.crom.CromSettings" />
 
     <!-- TRDS -->
     <header
         android:id="@+id/trds_settings"
-        android:icon="@drawable/ic_carbon_trds"
+        android:icon="@drawable/ic_crom_trds"
         android:title="@string/trds_settings_title" />
+
+    <!-- C-ROM OTA -->
+    <header 
+        android:icon="@drawable/ic_crom_update"
+        android:title="@string/update_settings_title">
+        <intent
+        android:action="android.intent.action.MAIN"
+        android:targetClass="com.acquariusoft.UpdateMe.UpdateMeActivity"
+        android:targetPackage="com.acquariusoft.UpdateMe" />
+    </header>
 
     <!-- Performance -->
     <header
         android:id="@+id/performance_settings"
         android:title="@string/performance_title"
-        android:icon="@drawable/ic_carbon_performance" >
+        android:icon="@drawable/ic_crom_performance" >
         <intent
                 android:action="android.intent.action.MAIN"
                 android:targetPackage="com.brewcrewfoo.performance"

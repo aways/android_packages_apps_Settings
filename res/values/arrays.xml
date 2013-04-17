@@ -845,7 +845,7 @@
         <item>Always allow</item>
     </string-array>
 
-    <!-- **** CARBON EDITS START **** -->
+    <!-- **** C-RoM EDITS START **** -->
 
     <!-- LCD Density -->
     <string-array name="lcd_density_entries" translatable="false">
@@ -2307,5 +2307,5 @@
         <item>4</item>
     </string-array>
 
-    <!-- **** CARBON EDITS END **** -->
+    <!-- **** C-RoM EDITS END **** -->
 </resources>

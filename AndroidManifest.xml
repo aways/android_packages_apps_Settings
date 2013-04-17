@@ -235,7 +235,7 @@
         </activity-alias>
 
         <activity
-            android:name=".carbon.TransparencyDialog"
+            android:name=".crom.TransparencyDialog"
             android:theme="@android:style/Theme.Dialog"
             android:label="@string/interface_title" >
             <intent-filter>
@@ -1533,29 +1533,28 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-        <!-- Carbon Activities Start -->
-        <activity android:name=".carbon.About" />
-        <activity android:name=".carbon.InterfaceSettings" />
-        <activity android:name=".carbon.LockscreenTargets" />
-        <activity android:name=".carbon.LockscreenInterface" />
-        <activity android:name=".carbon.LockscreenButtons" />
-        <activity android:name=".carbon.LockscreenShortcuts" />
-        <activity android:name=".carbon.Navbar" />
-        <activity android:name=".carbon.NavRingTargets" />
-        <activity android:name=".carbon.NotificationDrawerStyle" />
-        <activity android:name=".carbon.Pie" />
-        <activity android:name=".carbon.PieColor" />
-        <activity android:name=".carbon.PerformanceSettings" />
-        <activity android:name=".carbon.PowerMenu" />
-        <activity android:name=".carbon.PowerWidget" />
-        <activity android:name=".carbon.RamBar" />
-        <activity android:name=".carbon.StatusBar" />
-        <activity android:name=".carbon.StatusBarBattery" />
-        <activity android:name=".carbon.StatusBarClockStyle" />
-        <activity android:name=".carbon.StatusBarToggles" />
+        <!-- C-RoM Activities Start -->
+        <activity android:name=".crom.InterfaceSettings" />
+        <activity android:name=".crom.LockscreenTargets" />
+        <activity android:name=".crom.LockscreenInterface" />
+        <activity android:name=".crom.LockscreenButtons" />
+        <activity android:name=".crom.LockscreenShortcuts" />
+        <activity android:name=".crom.Navbar" />
+        <activity android:name=".crom.NavRingTargets" />
+        <activity android:name=".crom.NotificationDrawerStyle" />
+        <activity android:name=".crom.Pie" />
+        <activity android:name=".crom.PieColor" />
+        <activity android:name=".crom.PerformanceSettings" />
+        <activity android:name=".crom.PowerMenu" />
+        <activity android:name=".crom.PowerWidget" />
+        <activity android:name=".crom.RamBar" />
+        <activity android:name=".crom.StatusBar" />
+        <activity android:name=".crom.StatusBarBattery" />
+        <activity android:name=".crom.StatusBarClockStyle" />
+        <activity android:name=".crom.StatusBarToggles" />
 
-        <activity android:name="Settings$CarbonSettingsActivity"
-                android:label="@string/carbon_settings_title"
+        <activity android:name="Settings$CromSettingsActivity"
+                android:label="@string/crom_settings_title"
                 android:taskAffinity=""
                 android:excludeFromRecents="true">
             <intent-filter>
@@ -1563,13 +1562,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.carbon.CarbonSettings" />
+                android:value="com.android.settings.crom.CromSettings" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/carbon_settings" />
+                android:resource="@id/crom_settings" />
         </activity>
 
-        <activity android:name=".carbon.CarbonSettings"
-            android:label="CarbonSettings" >
+        <activity android:name=".crom.cromSettings"
+            android:label="CromSettings" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -1585,9 +1584,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.carbon.Pie" />
+                android:value="com.android.settings.crom.Pie" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/carbon_settings" />
+                android:resource="@id/crom_settings" />
         </activity>
 
         <activity android:name="Settings$QuietHoursSettingsActivity"
@@ -1599,7 +1598,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.carbon.QuietHours" />
+                android:value="com.android.settings.crom.QuietHours" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/sound_settings" />
         </activity>
@@ -1647,7 +1646,7 @@
         <activity android:name=".profiles.NFCProfileSelect" />
 
         <activity
-            android:name=".carbon.DensityChanger"
+            android:name=".crom.DensityChanger"
             android:label="@string/lcd_density_wizard" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -1661,7 +1660,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.carbon.RamBar" />
+                android:value="com.android.settings.crom.RamBar" />
         </activity>
 
         <activity android:name=".profiles.NFCProfile"
@@ -1669,7 +1668,7 @@
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
                 <category android:name="android.intent.category.DEFAULT"/>
-                <data android:mimeType="carbon/profile" />
+                <data android:mimeType="crom/profile" />
             </intent-filter>
         </activity>
 
@@ -1680,7 +1679,7 @@
         <activity android:name=".ApnEditor" />
 
         <activity
-            android:name=".carbon.NavRingTargets"
+            android:name=".crom.NavRingTargets"
             android:label="@string/title_navring" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -1689,7 +1688,7 @@
             </intent-filter>
         </activity>
 
-        <!-- Carbon Activities End -->
+        <!-- C-RoM Activities End -->
 
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"
@@ -1761,16 +1760,16 @@
                 android:clearTaskOnLaunch="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.android.settings.carbon.notificationshortcuts.NOTIFICATION_SHORTCUTS" />
-                <action android:name="android.settings.carbon.notificationshortcuts.NOTIFICATION_SHORTCUTS" />
+                <action android:name="com.android.settings.crom.notificationshortcuts.NOTIFICATION_SHORTCUTS" />
+                <action android:name="android.settings.crom.notificationshortcuts.NOTIFICATION_SHORTCUTS" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.carbon.notificationshortcuts.NotificationShortcuts" />
+                android:value="com.android.settings.crom.notificationshortcuts.NotificationShortcuts" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/carbon_notification_shortcuts" />
+                android:resource="@id/crom_notification_shortcuts" />
         </activity>
 
         <activity android:name="net.margaritov.preference.colorpicker" />
@@ -1781,7 +1780,7 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".carbon.BootReceiver" android:enabled="true">
+        <receiver android:name=".crom.BootReceiver" android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>

@@ -4440,35 +4440,7 @@
     <!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
 
-    <!-- **** CARBON ADDITIONS START **** -->
-
-    <!-- About Carbon -->
-    <string name="about_carbon_settings_title">About CarbonRom</string>
-    <string name="about_carbon_title">CarbonRom</string>
-    <string name="app_name">CarbonRom</string>
-    <string name="carbon_dev">CarbonDev</string>
-    <string name="contributors_title">Contributors</string>
-    <string name="devs_title">Meet the CarbonDev team</string>
-    <string name="donate_carbon">http://goo.gl/2Nieg</string>
-    <string name="github_carbon">https://github.com/CarbonDev</string>
-    <string name="carbon">CarbonRom JB 4.2.2</string>
-    <string name="carbon_links">Social media</string>
-    <string name="carbon_goo_title">Goo.im download page</string>
-    <string name="carbon_goo_summary">Visit our Goo.im download page for the latest builds</string>
-    <string name="carbon_source_title">Github Sources</string>
-    <string name="carbon_source_summary">Open source for all to see @ www.github.com/CarbonDev</string>
-    <string name="carbon_irc_title">Join us on IRC</string>
-    <string name="carbon_irc_summary">#teamcarbon @ irc.freenode.net</string>
-    <string name="carbon_facebook_title">Facebook Page</string>
-    <string name="carbon_facebook_summary">Subscribe to our Facebook page</string>
-    <string name="carbon_twitter_title">Twitter Handle</string>
-    <string name="carbon_twitter_summary">Follow us on Twitter</string>
-    <string name="carbon_googleplus_title">Google+ Community</string>
-    <string name="carbon_googleplus_summary">Join our G+ Community</string>
-    <string name="title_about">About Carbon</string>
-
-    <string name="ok">OK</string>
-    <string name="save">Save</string>
+    <!-- **** C-RoM ADDITIONS START **** -->
 
     <!-- Activity titles defined in AndroidManifest.xml -->
     <string name="title_navbar">Navigation</string>
@@ -4513,7 +4485,7 @@
     <string name="device_hostname">Device hostname</string>
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">Carbon version</string>
+    <string name="mod_version">C-RoM version</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Build date</string>
@@ -4524,15 +4496,16 @@
     <string name="mem_info">Memory</string>
     <!-- About phone screen, status item label -->
 
-    <!-- Carbon Links  -->
+    <!-- C-RoM Links  -->
     <!-- Settings main menu category heading. [CHAR LIMIT=40] -->
-    <string name="header_category_carbon_links">Carbon</string>
-    <string name="carbon_settings_title">CarbonRom</string>
-    <string name="carbon_settings_title_menu">Customize Carbon</string>
+    <string name="header_category_crom_links">C-RoM</string>
+    <string name="crom_settings_title">C-RoM Settings</string>
+    <string name="crom_settings_title_menu">Customize C-RoM</string>
+    <string name="update_settings_title">C-RoM OTA</string>
     <string name="performance_title">Performance</string>
     <string name="themes_settings_title">Themes</string>
 
-    <!-- Carbon Settings (submenu) -->
+    <!-- C-RoM Settings (submenu) -->
     <string name="interface_title">Interface</string>
     <string name="lock_screen_title">Lockscreen</string>
     <string name="navbar_title">Navigation</string>
@@ -4676,7 +4649,7 @@
     <string name="lockscreen_seethrough">Lockscreen See through</string>
     <string name="lockscreen_seethrough_summary">Allows you to see your homescreen behind the lock screen including apps.</string>
     <string name="lockscreen_all_widgets_title">Allow all widgets</string>
-    <string name="lockscreen_all_widgets_summary">Warning: Some widgets are not intended to be used on the lockscreen. Do not blame the widget maker or Carbon if your widget misbehaves. Choose responsibly!</string>
+    <string name="lockscreen_all_widgets_summary">Warning: Some widgets are not intended to be used on the lockscreen. Do not blame the widget maker or C-RoM if your widget misbehaves. Choose responsibly!</string>
 
     <!-- Transparency -->
     <string name="transparency_dialog_title">Transparency settings</string>
@@ -5822,7 +5795,7 @@
     <string name="status_bar_icon_opacity_summary">Sets opacity of status bar notification icons</string>
 
     <!-- TRDS Settings -->
-    <string name="trds_settings_title">Dark Carbon</string>
+    <string name="trds_settings_title">Dark C-RoM</string>
 
     <!-- Breathing Notifications -->
     <string name="status_bar_breathing_notifs_title">Breathing Notifications</string>
@@ -5872,5 +5845,5 @@
     <string name="notification_convert_sound_to_vibration_title">Notification conversion</string>
     <string name="notification_convert_sound_to_vibration_summary">Sounds to vibrations during vibrate mode</string>
 
-    <!-- **** CARBON ADDITIONS END **** -->
+    <!-- **** C-ROM ADDITIONS END **** -->
 </resources>

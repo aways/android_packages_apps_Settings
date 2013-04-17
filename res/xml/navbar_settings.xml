@@ -4,7 +4,7 @@
         <PreferenceScreen
                 android:key="hardware_keys"
                 android:title="@string/hardware_keys_title"
-                android:fragment="com.android.settings.carbon.HardwareKeys" />
+                android:fragment="com.android.settings.crom.HardwareKeys" />
 
         <CheckBoxPreference
                 android:key="enable_nav_bar"
@@ -140,7 +140,7 @@
                 android:key="nav_ring"
                 android:title="@string/interface_navring_settings_title"
                 android:summary="@string/interface_navring_settings_summary"
-                android:fragment="com.android.settings.carbon.NavRingTargets" />
+                android:fragment="com.android.settings.crom.NavRingTargets" />
         </PreferenceCategory>
 
         <PreferenceCategory
