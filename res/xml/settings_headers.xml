@@ -65,7 +65,7 @@
     <!-- C-RoM Settings -->
     <header
         android:id="@+id/crom_settings"
-        android:icon="@drawable/ic_settings_about_crom"
+        android:icon="@drawable/ic_settings_crom"
         android:title="@string/crom_settings_title"
         android:fragment="com.android.settings.crom.CromSettings" />
 

@@ -27,7 +27,7 @@ import com.android.settings.bluetooth.BluetoothEnabler;
 import com.android.settings.deviceinfo.Memory;
 import com.android.settings.fuelgauge.PowerUsageSummary;
 import com.android.settings.profiles.ProfileEnabler;
-import com.android.settings.carbon.TRDSEnabler;
+import com.android.settings.crom.TRDSEnabler;
 import com.android.settings.vpn2.VpnSettings;
 import com.android.settings.wifi.WifiEnabler;
 
@@ -125,7 +125,7 @@ public class Settings extends PreferenceActivity
             R.id.date_time_settings,
             R.id.about_settings,
             R.id.accessibility_settings,
-            R.id.carbon_section
+            R.id.crom_section
     };
 
     private SharedPreferences mDevelopmentPreferences;
@@ -885,7 +885,6 @@ public class Settings extends PreferenceActivity
     public static class QuietHoursSettingsActivity extends Settings { /* empty */ }
     public static class ASSRamBarActivity extends Settings { /* empty */ }
     public static class NotificationShortcutsSettingsActivity extends Settings { /* empty */ }
-    public static class AboutActivity extends Settings { /* empty */ }
     public static class PieActivity extends Settings { /* empty */ }
-    public static class CarbonSettingsActivity extends Settings { /* empty */ }
+    public static class CromSettingsActivity extends Settings { /* empty */ }
 }
