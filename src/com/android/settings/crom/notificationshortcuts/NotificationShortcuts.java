@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.carbon.notificationshortcuts;
+package com.android.settings.crom.notificationshortcuts;
 
 import java.io.File;
 import java.io.IOException;
@@ -61,8 +61,8 @@ import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.carbon.notificationshortcuts.IconPicker;
-import com.android.settings.carbon.notificationshortcuts.ShortcutPickHelper;
+import com.android.settings.crom.notificationshortcuts.IconPicker;
+import com.android.settings.crom.notificationshortcuts.ShortcutPickHelper;
 
 public class NotificationShortcuts extends SettingsPreferenceFragment implements ShortcutPickHelper.OnPickListener,
     IconPicker.OnIconPickListener {
