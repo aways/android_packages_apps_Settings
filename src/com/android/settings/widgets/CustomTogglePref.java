@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.android.settings.carbon.StatusBarToggles;
+import com.android.settings.crom.StatusBarToggles;
 import com.android.settings.R;
 
 public class CustomTogglePref extends Preference {
