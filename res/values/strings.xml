@@ -5335,6 +5335,10 @@
     <string name="navigation_bar_height_summary">Navbar height while in portrait mode</string>
     <string name="navigation_bar_height_landscape_title">Height Landscape</string>
     <string name="navigation_bar_height_landscape_summary">Navbar height while in landscape</string>
+    <string name="system_bar_height_title">System Bar height</string>
+    <string name="system_bar_height_summary">System Bar height while in portrait</string>
+    <string name="system_bar_height_landscape_title">System Bar height landscape</string>
+    <string name="system_bar_height_landscape_summary">System Bar height while in landscape</string>
     <string name="navigation_bar_width_title">Navbar Width</string>
     <string name="navigation_bar_width_summary">Navbar height if the bar is along left side</string>
     <string name="navbar_enable_dialog_title">Reboot Required!</string>
@@ -5366,8 +5370,6 @@
     <string name="navbar_widgets_delete">Delete Widget</string>
     <string name="navigation_bar_menu_arrow_keys_title">Menu Arrow Keys</string>
     <string name="navigation_bar_menu_arrow_keys_summary">Show arrow keys in the navbar while typing</string>
-    <string name="statusbar_hide_title">Hide Statusbar</string>
-    <string name="statusbar_hide_summary">Allow to completely hide the Statusbar</string>
     <string name="navigation_bar_alpha_title">Statusbar and navbar opacity</string>
     <string name="navbar_hide_enable_title">Hidden Navbar Enable</string>
     <string name="drag_handle_opacity_title">Drag Handle Opacity</string>
@@ -5813,7 +5815,7 @@
 
     <!-- Power button torch -->
     <string name="power_button_torch_title">Power button torch</string>
-    <string name="power_button_torch_summary">WARNING: This feature may not work well for devices with nonremovable batteries and Nexus devices. Use at your own risk! Hold power key with screen off to enable torch. Release to disable.</string>
+    <string name="power_button_torch_summary">WARNING: This feature may not work well for Nexus devices and those with nonremovable batteries. Use at your own risk! Hold power key with screen off to enable torch. Release to disable.</string>
 
     <!-- Automatic brightness customization -->
     <string name="light_sensor_current_value">Current light sensor value: <xliff:g id="light_level">%d</xliff:g> lux</string>
@@ -5841,9 +5843,14 @@
     <string name="sound_lock_volume_keys_title">Lock volume keys</string>
     <string name="sound_lock_volume_keys_summary">Prevents accidental unset of silent mode by pressing volume keys</string>
 
+    <!-- Notification sound to vibration conversion -->
     <string name="vibration_title">Phone vibration</string>
     <string name="notification_convert_sound_to_vibration_title">Notification conversion</string>
     <string name="notification_convert_sound_to_vibration_summary">Sounds to vibrations during vibrate mode</string>
+
+    <!-- Auto-Hide Status Bar -->
+    <string name="auto_hide_statusbar">Auto Hide statusbar</string>
+    <string name="auto_hide_statusbar_summary">Statusbar hides itself when there are no notifications</string>
 
     <!-- **** C-ROM ADDITIONS END **** -->
 </resources>
