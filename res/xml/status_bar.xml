@@ -24,12 +24,12 @@
         android:title="@string/status_bar_clock_title">
 
         <PreferenceScreen
-            android:fragment="com.android.settings.carbon.StatusBarBattery"
+            android:fragment="com.android.settings.crom.StatusBarBattery"
             android:key="battery_style_pref"
             android:title="@string/status_bar_battery_icon_bar_title" />
 
         <PreferenceScreen
-            android:fragment="com.android.settings.carbon.StatusBarClockStyle"
+            android:fragment="com.android.settings.crom.StatusBarClockStyle"
             android:key="clock_style_pref"
             android:title="@string/status_bar_clock" />
 

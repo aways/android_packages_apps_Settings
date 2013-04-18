@@ -1567,7 +1567,7 @@
                 android:resource="@id/crom_settings" />
         </activity>
 
-        <activity android:name=".crom.cromSettings"
+        <activity android:name=".crom.CromSettings"
             android:label="CromSettings" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
