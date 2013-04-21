@@ -168,6 +168,17 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mWifiDisplayPreference = null;
         }
 
+        mVolumeWake = (CheckBoxPreference) findPreference(KEY_VOLUME_WAKE);
+        if (mVolumeWake != null) {
+            if (!getResources().getBoolean(R.bool.config_show_volumeRockerWake)) {
+                getPreferenceScreen().removePreference(mVolumeWake);
+                getPreferenceScreen().removePreference((PreferenceCategory) findPreference(KEY_WAKEUP_CATEGORY));
+            } else {
+                mVolumeWake.setChecked(Settings.System.getInt(resolver,
+                        Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
+            }
+        }
+
         // respect device default configuration
         // true fades while false animates
         boolean electronBeamFadesConfig = mContext.getResources().getBoolean(
