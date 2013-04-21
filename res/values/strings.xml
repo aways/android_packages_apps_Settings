@@ -5119,6 +5119,15 @@
     <string name="notification_shortcuts_icon_picker_twitter">Twitter</string>
     <string name="notification_shortcuts_icon_picker_unlock">Unlock</string>
 
+    <!-- Display Animation -->
+    <string name="system_power_crt_screen_off_title">CRT Screen Off</string>
+    <string name="system_power_crt_screen_off_summary">Show animation when screen is turned off</string>
+    <string name="system_power_crt_mode_title">CRT Animation Mode</string>
+    <string name="system_power_crt_mode_dialog_title">Show CRT Animation</string>
+    <string name="system_power_crt_mode_horizontal">Portrait Horizontal</string>
+    <string name="system_power_crt_mode_vertical">Portrait Vertical</string>
+    <string name="system_power_crt_mode_both">Orientation Dependent</string>
+
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
@@ -5739,12 +5748,6 @@
     <string name="lockscreen_background_custom_image">Custom image</string>
     <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
 
-    <!-- CRT --> 
-    <string name="system_power_crt_screen_off_title">CRT Screen Off</string>
-    <string name="system_power_crt_screen_off_summary">Screen will animate an Electron Beam when turned off</string>
-    <string name="system_power_crt_screen_on_title">CRT Screen On</string>
-    <string name="system_power_crt_screen_on_summary">Screen will animate an Electron Beam when turned on</string>
-
     <!-- Battery Icon and Bar -->
     <string name="status_bar_battery_icon_bar_title">Battery icon and bar style</string>
     <string name="battery_icon_cat">Battery icon style</string>
@@ -5868,4 +5871,5 @@
     <string name="power_notifications_ringtone_silent">Silent</string>
 
     <!-- **** C-ROM ADDITIONS END **** -->
+
 </resources>
