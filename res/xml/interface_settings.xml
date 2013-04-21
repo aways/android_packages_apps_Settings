@@ -72,16 +72,6 @@
         android:key="options"
         android:title="@string/additional_options_title">
 
-        <CheckBoxPreference
-            android:key="system_power_crt_screen_off"
-            android:summary="@string/system_power_crt_screen_off_summary"
-            android:title="@string/system_power_crt_screen_off_title" />
-
-        <CheckBoxPreference
-            android:key="system_power_crt_screen_on"
-            android:summary="@string/system_power_crt_screen_on_summary"
-            android:title="@string/system_power_crt_screen_on_title" />
-
         <ListPreference
             android:key="pref_low_battery_warning_policy"
             android:title="@string/pref_low_battery_warning_policy_title"
@@ -94,13 +84,6 @@
             android:key="notification_show_wifi_ssid"
             android:title="@string/notification_show_wifi_ssid_title"
             android:summary="@string/notification_show_wifi_ssid_summary"
-            android:defaultValue="false" />
-
-        <CheckBoxPreference
-            android:key="power_button_torch"
-            android:title="@string/power_button_torch_title"
-            android:summary="@string/power_button_torch_summary"
-            android:persistent="false"
             android:defaultValue="false" />
 
         <CheckBoxPreference
