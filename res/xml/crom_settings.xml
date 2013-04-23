@@ -38,14 +38,6 @@
         android:icon="@drawable/ic_crom_navbar"
         android:fragment="com.android.settings.crom.Navbar" />
 
-    <!-- Ribbon -->
-    <PreferenceScreen
-        android:id="@+id/ribbon_targets"
-        android:fragment="com.android.settings.crom.RibbonTargets"
-        android:icon="@drawable/ic_rom_control_ribbon"
-        android:title="@string/ribbon_settings_title"
-        android:summary="@string/ribbon_settings_summary" />
-
     <!-- Pie Controls -->
     <PreferenceScreen
         android:id="@+id/pie_controls"
@@ -66,6 +58,14 @@
         android:title="@string/power_widget_title"
         android:icon="@drawable/ic_crom_powerwidget"
         android:fragment="com.android.settings.crom.PowerWidget" />
+
+    <!-- Ribbons -->
+    <PreferenceScreen
+        android:id="@+id/ribbon_targets"
+        android:fragment="com.android.settings.crom.RibbonTargets"
+        android:icon="@drawable/ic_rom_control_ribbon"
+        android:title="@string/ribbon_settings_title"
+        android:summary="@string/ribbon_settings_summary" />
 
     <!-- Statusbar -->
     <PreferenceScreen
