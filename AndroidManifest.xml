@@ -1535,6 +1535,7 @@
 
         <!-- C-RoM Activities Start -->
         <activity android:name=".crom.InterfaceSettings" />
+        <activity android:name=".crom.Lockscreens" />
         <activity android:name=".crom.LockscreenTargets" />
         <activity android:name=".crom.LockscreenInterface" />
         <activity android:name=".crom.LockscreenButtons" />
@@ -1548,6 +1549,7 @@
         <activity android:name=".crom.PowerMenu" />
         <activity android:name=".crom.PowerWidget" />
         <activity android:name=".crom.RamBar" />
+        <activity android:name=".crom.RibbonTargets" />
         <activity android:name=".crom.StatusBar" />
         <activity android:name=".crom.StatusBarBattery" />
         <activity android:name=".crom.StatusBarClockStyle" />
@@ -1678,15 +1680,6 @@
 
         <activity android:name=".ApnEditor" />
 
-        <activity
-            android:name=".crom.NavRingTargets"
-            android:label="@string/title_navring" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-        </activity>
 
         <!-- C-RoM Activities End -->
 

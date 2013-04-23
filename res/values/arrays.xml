@@ -1077,6 +1077,32 @@
         <item>**assist**</item>
         <item>**app**</item>
     </string-array>
+    <string-array name="ribbon_dialog_entries" translatable="false">
+        <item>@string/navring_short</item>
+        <item>@string/navring_long</item>
+        <item>@string/navring_icon</item>
+        <item>@string/ribbon_insert</item>
+        <item>@string/navbar_delete_menu</item>
+    </string-array>
+    <string-array name="ribbon_dialog_values" translatable="false">
+        <item>**short**</item>
+        <item>**long**</item>
+        <item>**icon**</item>
+        <item>**insert**</item>
+        <item>**remove**</item>
+    </string-array>
+    <string-array name="ribbon_chooser_entries" translatable="false">
+        <item>@string/ribbon_lockscreen</item>
+        <item>@string/ribbon_notifications</item>
+        <item>@string/ribbon_quicksettings</item>
+        <item>@string/ribbon_swipe</item>
+    </string-array>
+    <string-array name="ribbon_chooser_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
     <string-array name="navring_long_dialog_entries" translatable="false">
         <item>@string/navring_short</item>
         <item>@string/navring_long</item>
@@ -1258,56 +1284,6 @@
         <item>300000</item>
         <item>600000</item>
         <item>1800000</item>
-    </string-array>
-
-    <string-array name="lockscreen_icon_picker_labels" translatable="false">
-        <item>@string/icon_picker_alarm</item>
-        <item>@string/icon_picker_browser</item>
-        <item>@string/icon_picker_calendar</item>
-        <item>@string/icon_picker_camera</item>
-        <item>@string/icon_picker_chrome</item>
-        <item>@string/icon_picker_email</item>
-        <item>@string/icon_picker_email2</item>
-        <item>@string/icon_picker_facebook</item>
-        <item>@string/icon_picker_gallery</item>
-        <item>@string/icon_picker_google_small</item>
-        <item>@string/icon_picker_googleplus</item>
-        <item>@string/icon_picker_googletalk</item>
-        <item>@string/icon_picker_maps</item>
-        <item>@string/icon_picker_sms</item>
-        <item>@string/icon_picker_movie</item>
-        <item>@string/icon_picker_music</item>
-        <item>@string/icon_picker_nav_normal</item>
-        <item>@string/icon_picker_phone</item>
-        <item>@string/icon_picker_podcast</item>
-        <item>@string/icon_picker_rss</item>
-        <item>@string/icon_picker_search</item>
-        <item>@string/icon_picker_twitter</item>
-    </string-array>
-
-    <string-array name="lockscreen_icon_picker_icons" translatable="false">
-        <item>@*android:drawable/ic_lockscreen_alarm_normal</item>
-        <item>@*android:drawable/ic_lockscreen_browser_normal</item>
-        <item>@*android:drawable/ic_lockscreen_calendar_normal</item>
-        <item>@*android:drawable/ic_lockscreen_camera_normal</item>
-        <item>@*android:drawable/ic_lockscreen_chrome_normal</item>
-        <item>@*android:drawable/ic_lockscreen_email_normal</item>
-        <item>@*android:drawable/ic_lockscreen_email2_normal</item>
-        <item>@*android:drawable/ic_lockscreen_facebook_normal</item>
-        <item>@*android:drawable/ic_lockscreen_gallery_normal</item>
-        <item>@*android:drawable/ic_lockscreen_google_small_normal</item>
-        <item>@*android:drawable/ic_lockscreen_gplus_normal</item>
-        <item>@*android:drawable/ic_lockscreen_gtalk_normal</item>
-        <item>@*android:drawable/ic_lockscreen_maps_normal</item>
-        <item>@*android:drawable/ic_lockscreen_sms_normal</item>
-        <item>@*android:drawable/ic_lockscreen_movie_normal</item>
-        <item>@*android:drawable/ic_lockscreen_music_normal</item>
-        <item>@*android:drawable/ic_lockscreen_nav_normal</item>
-        <item>@*android:drawable/ic_lockscreen_phone_normal</item>
-        <item>@*android:drawable/ic_lockscreen_podcast_normal</item>
-        <item>@*android:drawable/ic_lockscreen_rss_normal</item>
-        <item>@*android:drawable/ic_lockscreen_google_normal</item>
-        <item>@*android:drawable/ic_lockscreen_twitter_normal</item>
     </string-array>
 
     <!-- Profile mode options. -->
@@ -1997,6 +1973,20 @@
         <item>6</item>
         <item>8</item>
     </string-array>
+    <string-array name="lockscreen_dialog_entries" translatable="false">
+        <item>@string/none</item>
+        <item>@string/lockscreen_unlock</item>
+        <item>@string/lockscreen_camera</item>
+        <item>@string/google_now</item>
+        <item>@string/select_application</item>
+    </string-array>
+    <string-array name="lockscreen_dialog_values" translatable="false">
+        <item>**null**</item>
+        <item>**unlock**</item>
+        <item>**camera**</item>
+        <item>**assist**</item>
+        <item>**app**</item>
+    </string-array>
     <string-array name="notification_action_entries" translatable="false">
         <item>@string/nothing</item>
         <item>@string/clock_options</item>
@@ -2307,5 +2297,28 @@
         <item>4</item>
     </string-array>
 
+    <!-- Custom toggle double-actions -->
+    <string-array name="ribbon_icon_size_entries" translatable="false">
+        <item>@string/icon_size_normal</item>
+        <item>@string/icon_size_20</item>
+        <item>@string/icon_size_15</item>
+    </string-array>
+    <string-array name="ribbon_icon_size_values" translatable="false">
+        <item>0</item>
+        <item>20</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="ribbon_handle_location_entries" translatable="false">
+        <item>@string/center</item>
+        <item>@string/top</item>
+        <item>@string/bottom</item>
+    </string-array>
+    <string-array name="ribbon_handle_location_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- **** C-RoM EDITS END **** -->
+
 </resources>
