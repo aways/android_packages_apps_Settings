@@ -5915,4 +5915,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="hidden_statusbar_pulldown_title">Hidden Statusbar Pulldown</string>
     <string name="hidden_statusbar_pulldown_summary">Allows Statusbar to be pulled down when hidden</string>
 
+    <!-- **** C-ROM ADDITIONS END **** -->
+
 </resources>
