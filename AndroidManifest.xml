@@ -1644,7 +1644,7 @@
 
         <activity
             android:name=".crom.Installer"
-            android:label="@string/installer">
+            android:label="@string/title_installer">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
