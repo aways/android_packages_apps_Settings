@@ -64,6 +64,7 @@
     <uses-permission android:name="android.permission.SET_TIME" />
     <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <permission
         android:name="android.permission.REQUEST_SUPERUSER"
@@ -1535,6 +1536,7 @@
 
         <!-- C-RoM Activities Start -->
         <activity android:name=".crom.InterfaceSettings" />
+        <activity android:name=".crom.PerformanceSettings" />
         <activity android:name=".crom.Lockscreens" />
         <activity android:name=".crom.Navbar" />
         <activity android:name=".crom.NavRingTargets" />

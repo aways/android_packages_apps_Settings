@@ -88,13 +88,9 @@
     <!-- Performance -->
     <header
         android:id="@+id/performance_settings"
-        android:title="@string/performance_title"
-        android:icon="@drawable/ic_crom_performance" >
-        <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="com.brewcrewfoo.performance"
-                android:targetClass="com.brewcrewfoo.performance.activities.MainActivity" />
-    </header>
+        android:fragment="com.android.settings.crom.PerformanceSettings"
+        android:icon="@drawable/ic_crom_performance"
+        android:title="@string/performance_settings_title" />
 
     <!-- Themes -->
     <header
