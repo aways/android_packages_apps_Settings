@@ -5916,17 +5916,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="hidden_statusbar_pulldown_timeout_title">Hidden Statusbar Pulldown Timeout</string>
     <string name="hidden_statusbar_pulldown_timeout_summary">Timeout for hidden Statusbar window</string>
 
-    <!-- Persist Installer -->
-    <string name="title_installer">Persistence Settings</string>
-    <string name="header_summary_installer">@null</string>
-    <string name="persist_options">Persistence</string>
-    <string name="persist_enable">Enable Persistence</string>
-    <string name="persist_enable_summary">Enable data to persist across installs</string>
-    <string name="persist_prop_density">Persist Density</string>
-    <string name="persist_prop_density_summary">Persist LCD density</string>
-    <string name="persist_file_hosts">Persist Hosts</string>
-    <string name="persist_file_hosts_summary">Persist hosts file</string>
-
     <!-- **** C-ROM ADDITIONS END **** -->
 
 </resources>
