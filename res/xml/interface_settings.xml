@@ -102,7 +102,7 @@
 
     <PreferenceCategory
         android:key="options"
-        android:title="@string/miscellaneous_options_title">
+        android:title="@string/additional_options_title">
 
         <CheckBoxPreference
             android:key="system_power_crt_screen_off"
