@@ -240,6 +240,9 @@ public class InterfaceSettings extends SettingsPreferenceFragment
         IWindowManager windowManager = IWindowManager.Stub.asInterface(
                 ServiceManager.getService(Context.WINDOW_SERVICE));
 
+        boolean hasNavBarByDefault = mContext.getResources().getBoolean(
+                com.android.internal.R.bool.config_showNavigationBar);
+
         if (hasNavBarByDefault) {
             // Let's assume they don't have hardware keys
             getPreferenceScreen().removePreference(findPreference(KEY_HARDWARE_KEYS));
