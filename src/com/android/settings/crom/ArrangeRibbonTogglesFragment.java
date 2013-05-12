@@ -1,5 +1,5 @@
 
-package com.android.settings.carbon;
+package com.android.settings.crom;
 
 import android.app.AlertDialog;
 import android.app.DialogFragment;
@@ -29,7 +29,7 @@ import android.widget.ListView;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.android.internal.util.carbon.NavBarHelpers;
+import com.android.internal.util.crom.NavBarHelpers;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 import com.android.settings.SettingsActivity;
