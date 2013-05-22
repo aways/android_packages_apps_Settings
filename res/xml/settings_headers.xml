@@ -85,6 +85,13 @@
         android:targetPackage="com.acquariusoft.UpdateMe" />
     </header>
 
+    <!-- Performance -->
+    <header
+        android:id="@+id/performance_settings"
+        android:fragment="com.android.settings.crom.PerformanceSettings"
+        android:icon="@drawable/ic_settings_performance"
+        android:title="@string/performance_settings_title" />
+
     <!-- Themes -->
     <header
         android:id="@+id/themes_settings"
@@ -254,13 +261,6 @@
         android:fragment="com.koushikdutta.superuser.PolicyNativeFragment"
         android:icon="@drawable/ic_action_permission"
         android:title="@string/superuser" />
-
-    <!-- Performance -->
-    <header
-        android:id="@+id/performance_settings"
-        android:fragment="com.android.settings.crom.PerformanceSettings"
-        android:icon="@drawable/ic_settings_performance"
-        android:title="@string/performance_settings_title" />
 
     <!-- About Device -->
     <header
