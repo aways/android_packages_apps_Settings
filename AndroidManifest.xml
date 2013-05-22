@@ -1545,6 +1545,7 @@
         <activity android:name=".crom.Pie" />
         <activity android:name=".crom.PieColor" />
         <activity android:name=".crom.PowerMenu" />
+        <activity android:name=".crom.PerformanceSettings" />
         <activity android:name=".crom.PowerWidget" />
         <activity android:name=".crom.RamBar" />
         <activity android:name=".crom.RibbonTargets" />
