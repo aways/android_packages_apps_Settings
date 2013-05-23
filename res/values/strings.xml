@@ -4513,7 +4513,6 @@
     <!-- Settings main menu category heading. [CHAR LIMIT=40] -->
     <string name="header_category_crom_links">C-RoM</string>
     <string name="crom_settings_title">C-RoM Settings</string>
-    <string name="crom_settings_title_menu">Customize C-RoM</string>
     <string name="update_settings_title">C-RoM OTA</string>
     <string name="performance_title">Performance</string>
     <string name="themes_settings_title">Themes</string>
@@ -5917,6 +5916,18 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="notification_convert_sound_to_vibration_title">Notification conversion</string>
     <string name="notification_convert_sound_to_vibration_summary">Sounds to vibrations during vibrate mode</string>
 
+
+    <!-- Safe headset volume restore checkbox -->
+    <string name="safe_headset_volume_title">Safe headset volume</string>
+    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
+
+    <!-- Control media volume -->
+    <string name="volume_keys_control_ring_stream">Media control</string>
+    <string name="volume_keys_control_ring_stream_summary">Volume keys control media volume rather than notifications</string>
+
+    <!-- Permissions Management -->
+    <string name="permissions_settings_title">Permissions</string>
+
     <!-- Category title for power sound notification specific Settings.
          [CHAR LIMIT=40] -->
     <string name="power_notifications_category_title">Power sounds</string>
@@ -5929,13 +5940,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="power_notifications_ringtone_title">Notification sound</string>
     <!-- Sound settings, power notifications label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Silent</string>
-
-    <!-- Safe headset volume restore checkbox -->
-    <string name="safe_headset_volume_title">Safe headset volume</string>
-    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
-
-    <!-- Permissions Management -->
-    <string name="permissions_settings_title">Permissions</string>
 
     <!-- Lockscreen longpress actions -->
     <string name="lockscreen_buttons_title">Button actions</string>

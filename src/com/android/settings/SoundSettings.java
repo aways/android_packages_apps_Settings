@@ -95,11 +95,11 @@ public class SoundSettings extends SettingsPreferenceFragment implements
     private static final String KEY_LOCK_VOLUME_KEYS = "lock_volume_keys";
     private static final String KEY_CAMERA_SOUNDS = "camera_sounds";
     private static final String PROP_CAMERA_SOUND = "persist.sys.camera-sound";
+    private static final String KEY_SAFE_HEADSET_VOLUME = "safe_headset_volume";
     private static final String KEY_POWER_NOTIFICATIONS = "power_notifications";
     private static final String KEY_POWER_NOTIFICATIONS_VIBRATE = "power_notifications_vibrate";
     private static final String KEY_POWER_NOTIFICATIONS_RINGTONE = "power_notifications_ringtone";
-    private static final String KEY_SAFE_HEADSET_VOLUME = "safe_headset_volume";
-
+    private static final String KEY_VOL_RING = "volume_keys_control_ring_stream";
 
     private static final String RING_MODE_NORMAL = "normal";
     private static final String RING_MODE_VIBRATE = "vibrate";
@@ -137,10 +137,11 @@ public class SoundSettings extends SettingsPreferenceFragment implements
     private CheckBoxPreference mSwapVolumeButtons;
     private CheckBoxPreference mLockVolumeKeys;
     private CheckBoxPreference mCameraSounds;
+    private CheckBoxPreference mSafeHeadsetVolume;
     private CheckBoxPreference mPowerSounds;
     private CheckBoxPreference mPowerSoundsVibrate;
     private Preference mPowerSoundsRingtone;
-    private CheckBoxPreference mSafeHeadsetVolume;
+    private CheckBoxPreference mVolumeKeysControlRing;
 
     private Runnable mRingtoneLookupRunnable;
 
@@ -251,6 +252,10 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         mLockVolumeKeys = (CheckBoxPreference) findPreference(KEY_LOCK_VOLUME_KEYS);
         mLockVolumeKeys.setChecked(Settings.System.getInt(resolver,
                 Settings.System.LOCK_VOLUME_KEYS, 0) != 0);
+
+        mVolumeKeysControlRing = (CheckBoxPreference) findPreference(KEY_VOL_RING);
+        mVolumeKeysControlRing.setChecked(Settings.System.getInt(resolver,
+                Settings.System.VOLUME_KEYS_CONTROL_RING_STREAM, 0) != 0);
 
         mCameraSounds = (CheckBoxPreference) findPreference(KEY_CAMERA_SOUNDS);
         mCameraSounds.setPersistent(false);
@@ -372,7 +377,6 @@ public class SoundSettings extends SettingsPreferenceFragment implements
                 mPowerSoundsRingtone.setSummary(ringtone.getTitle(getActivity()));
             }
         }
-
     }
 
     @Override
@@ -551,6 +555,10 @@ public class SoundSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getContentResolver(), Settings.System.LOCK_VOLUME_KEYS,
                     mLockVolumeKeys.isChecked() ? 1 : 0);
 
+        } else if (preference == mVolumeKeysControlRing) {
+            Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_KEYS_CONTROL_RING_STREAM,
+                    mVolumeKeysControlRing.isChecked() ? 1 : 0);
+
         } else if (preference == mSwapVolumeButtons) {
             Context context = getActivity().getApplicationContext();
             Settings.System.putInt(context.getContentResolver(), 
@@ -562,6 +570,10 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         } else if (preference == mHeadsetConnectPlayer) {
             Settings.System.putInt(getContentResolver(), Settings.System.HEADSET_CONNECT_PLAYER,
                     mHeadsetConnectPlayer.isChecked() ? 1 : 0);
+
+        } else if (preference == mSafeHeadsetVolume) {
+            Settings.System.putInt(getContentResolver(), Settings.System.SAFE_HEADSET_VOLUME,
+                    mSafeHeadsetVolume.isChecked() ? 1 : 0);
 
         } else if (preference == mPowerSounds) {
             Settings.Global.putInt(getContentResolver(),
@@ -577,11 +589,6 @@ public class SoundSettings extends SettingsPreferenceFragment implements
             launchNotificationSoundPicker(REQUEST_CODE_POWER_NOTIFICATIONS_RINGTONE,
                     Settings.Global.getString(getContentResolver(),
                             Settings.Global.POWER_NOTIFICATIONS_RINGTONE));
-
-        } else if (preference == mSafeHeadsetVolume) {
-            Settings.System.putInt(getContentResolver(), Settings.System.SAFE_HEADSET_VOLUME,
-                    mSafeHeadsetVolume.isChecked() ? 1 : 0);
-
         } else {
             // If we didn't handle it, let preferences handle it.
             return super.onPreferenceTreeClick(preferenceScreen, preference);
