@@ -23,7 +23,8 @@
             android:summary="@string/show_overflow_summary"
             android:defaultValue="false" />
 
-        <Preference            android:fragment="com.android.settings.crom.NotificationDrawerStyle"
+        <Preference
+            android:fragment="com.android.settings.crom.NotificationDrawerStyle"
             android:key="notification_style"
             android:title="@string/notification_style_title"
             android:summary="@string/notification_style_summary" />
@@ -106,7 +107,7 @@
 
     <PreferenceCategory
         android:key="options"
-        android:title="@string/additional_options_title">
+        android:title="@string/miscellaneous_options_title">
 
         <PreferenceScreen
            android:key="lock_clock"
