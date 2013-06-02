@@ -130,7 +130,7 @@ public class HardwareKeys extends SettingsPreferenceFragment implements
                 HARDWARE_KEYS_APP_SWITCH_PRESS);
         mAppSwitchLongPressAction = (ListPreference) prefSet.findPreference(
                 HARDWARE_KEYS_APP_SWITCH_LONG_PRESS);
-        mShowActionOverflow = (CheckBoxPreference) prefSet.findPreference(
+         PreferenceCategory bindingsCategory = (PreferenceCategory) prefSet.findPreference(
                 HARDWARE_KEYS_CATEGORY_BINDINGS);
 
         if (hasHomeKey) {
