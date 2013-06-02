@@ -5140,7 +5140,7 @@
 
     <!-- Interface -->
     <string name="hardware_keys_options_title">Hardware Keys</string>
-    <string name="custom_carrier_label_title">Carrier Label</string>
+    <string name="miscellaneous_options_title">Miscellaneous</string>
     <string name="custom_carrier_label_explain">Please enter a new label. Empty label to revert to stock</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="lcd_density_title">LCD Density</string>
