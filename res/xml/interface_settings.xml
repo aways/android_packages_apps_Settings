@@ -107,7 +107,7 @@
 
     <PreferenceCategory
         android:key="options"
-        android:title="@string/miscellaneous_options_title">
+        android:title="@string/additional_options_title">
 
         <PreferenceScreen
            android:key="lock_clock"
