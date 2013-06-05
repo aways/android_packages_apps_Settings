@@ -5955,6 +5955,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lockscreen_buttons_playpause">Play/Pause music</string>
     <string name="lockscreen_buttons_toggle_sound">Toggle sound</string>
 
-    <!-- **** C-ROM ADDITIONS END **** -->
+	<!-- Delete apn confirmation dialog message -->
+    <string name="confirm_delete_apn">The APN will be deleted.</string>
 
+    <!-- **** C-ROM ADDITIONS END **** -->
 </resources>
