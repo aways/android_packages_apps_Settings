@@ -1646,6 +1646,8 @@
 
         <activity android:name=".profiles.NFCProfileSelect" />
 
+        <activity android:name=".profiles.WifiTriggers" />
+
         <activity
             android:name=".crom.DensityChanger"
             android:label="@string/lcd_density_wizard" >
