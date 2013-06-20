@@ -5761,8 +5761,8 @@
     <string name="gestures_settings_title">Stylus gestures</string>
     <string name="category_spen_title">Stylus gestures</string>
     <string name="enable_subcat_title">Stylus</string>
-    <string name="enable_spen_title_head">Enable stylus gestures</string>
-    <string name="enable_spen_summary_head">Allows stylus button swipe gestures to launch custom actions. Warning: Applications will not be able to recieve input fired by holding stylus button.</string>
+    <string name="enable_spen_title_head">Enable gestures</string>
+    <string name="enable_spen_summary_head">Use swipe gestures by holding down the stylus button</string>
     <string name="gestures_subcat_title">Gestures</string>
     <string name="gestures_left_spen_title_head">Left swipe</string>
     <string name="gestures_left_spen_summary_head">Allows to launch custom action on left swipe</string>
@@ -5779,11 +5779,11 @@
 
     <!-- Gestures Options -->
     <string name="gestures_action_empty">No action</string>
-    <string name="gestures_action_home">Go to home</string>
-    <string name="gestures_action_back">Emulate back key</string>
-    <string name="gestures_action_menu">Emulate menu key</string>
+    <string name="gestures_action_home">Home Key</string>
+    <string name="gestures_action_back">Back Key</string>
+    <string name="gestures_action_menu">Menu Key</string>
     <string name="gestures_action_search">Invoke search</string>
-    <string name="gestures_action_recent">Recent applications</string>
+    <string name="gestures_action_recent">Recent Apps</string>
     <string name="gestures_action_screenshot">Take a screenshot</string>
 
     <!-- Custom lock screen background -->
