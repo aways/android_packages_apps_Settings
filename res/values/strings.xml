@@ -6089,5 +6089,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="statusbar_hide">Hide statusbar</string>
     <string name="statusbar_auto">Auto hide statusbar</string>
 
-     <!-- **** C-ROM ADDITIONS END **** -->
+    <!-- Profile network mode -->
+    <string name="profile_networkmode_2g">2G</string>
+    <string name="profile_networkmode_3g">3G</string>
+    <string name="profile_networkmode_2g3g">2G/3G</string>
+
+    <!-- **** C-ROM ADDITIONS END **** -->
 </resources>
