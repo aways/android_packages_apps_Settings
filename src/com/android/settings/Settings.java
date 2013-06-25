@@ -890,5 +890,6 @@ public class Settings extends PreferenceActivity
     public static class ASSRamBarActivity extends Settings { /* empty */ }
     public static class NotificationShortcutsSettingsActivity extends Settings { /* empty */ }
     public static class PieActivity extends Settings { /* empty */ }
+    public static class HaloActivity extends Settings { /* empty */ }
     public static class CromSettingsActivity extends Settings { /* empty */ }
 }

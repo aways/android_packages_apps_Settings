@@ -1554,6 +1554,7 @@
         <activity android:name=".crom.StatusBarBattery" />
         <activity android:name=".crom.StatusBarClockStyle" />
         <activity android:name=".crom.StatusBarToggles" />
+        <activity android:name=".crom.Halo" />
 
         <activity android:name="Settings$CromSettingsActivity"
                 android:label="@string/crom_settings_title"
