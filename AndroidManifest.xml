@@ -1540,6 +1540,8 @@
         />
 
         <!-- C-RoM Activities Start -->
+        <activity android:name=".crom.CromSettings" />
+        <activity android:name=".crom.Halo" />
         <activity android:name=".crom.InterfaceSettings" />
         <activity android:name=".crom.Lockscreens" />
         <activity android:name=".crom.LockscreenButtons" />
@@ -1557,7 +1559,6 @@
         <activity android:name=".crom.StatusBarBattery" />
         <activity android:name=".crom.StatusBarClockStyle" />
         <activity android:name=".crom.StatusBarToggles" />
-        <activity android:name=".crom.Halo" />
 
         <activity android:name="Settings$CromSettingsActivity"
                 android:label="@string/crom_settings_title"
@@ -1571,14 +1572,6 @@
                 android:value="com.android.settings.crom.CromSettings" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/crom_settings" />
-        </activity>
-
-        <activity android:name=".crom.CromSettings"
-            android:label="CromSettings" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
 
         <activity android:name="Settings$HaloActivity"
@@ -1606,7 +1599,7 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.crom.Pie" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/crom_settings" />
+                android:resource="@id/pie_controls" />
         </activity>
 
         <activity android:name="Settings$QuietHoursSettingsActivity"
