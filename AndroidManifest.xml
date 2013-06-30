@@ -1540,7 +1540,7 @@
         />
 
         <!-- C-RoM Activities Start -->
-        <activity android:name=".crom.CromSettings" />
+        <activity android:name=".crom.Crom" />
         <activity android:name=".crom.Halo" />
         <activity android:name=".crom.InterfaceSettings" />
         <activity android:name=".crom.Lockscreens" />
@@ -1560,7 +1560,7 @@
         <activity android:name=".crom.StatusBarClockStyle" />
         <activity android:name=".crom.StatusBarToggles" />
 
-        <activity android:name="Settings$CromSettingsActivity"
+        <activity android:name="Settings$CromActivity"
                 android:label="@string/crom_settings_title"
                 android:taskAffinity=""
                 android:excludeFromRecents="true">
@@ -1569,7 +1569,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.crom.CromSettings" />
+                android:value="com.android.settings.crom.Crom" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/crom_settings" />
         </activity>
