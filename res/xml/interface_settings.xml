@@ -5,22 +5,6 @@
         android:key="general_options"
         android:title="@string/profiles_general_title">
 
-        <ListPreference
-            android:key="listview_animation"
-            android:dialogTitle="@string/listview_animation_title"
-            android:title="@string/listview_animation_title"
-            android:entries="@array/listview_animation_entries"
-            android:entryValues="@array/listview_animation_values"
-            android:defaultValue="1" />
-
-        <ListPreference
-            android:key="listview_interpolator"
-            android:dialogTitle="@string/listview_interpolator_title"
-            android:title="@string/listview_interpolator_title"
-            android:entries="@array/listview_interpolator_entries"
-            android:entryValues="@array/listview_interpolator_values"
-            android:defaultValue="0" />
-
         <Preference
             android:key="custom_carrier_label"
             android:title="@string/custom_carrier_label_title" />
@@ -140,6 +124,22 @@
                    android:targetPackage="com.cyanogenmod.lockclock"
                    android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
         </PreferenceScreen>
+
+        <ListPreference
+            android:key="listview_animation"
+            android:dialogTitle="@string/listview_animation_title"
+            android:title="@string/listview_animation_title"
+            android:entries="@array/listview_animation_entries"
+            android:entryValues="@array/listview_animation_values"
+            android:defaultValue="1" />
+
+        <ListPreference
+            android:key="listview_interpolator"
+            android:dialogTitle="@string/listview_interpolator_title"
+            android:title="@string/listview_interpolator_title"
+            android:entries="@array/listview_interpolator_entries"
+            android:entryValues="@array/listview_interpolator_values"
+            android:defaultValue="0" />
 
         <CheckBoxPreference
             android:key="system_power_crt_screen_off"
