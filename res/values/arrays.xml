@@ -2478,6 +2478,7 @@
 
     <string-array name="location_values_gps_source" translatable="false">
         <item>0</item>
+     </string-array>
 
     <!-- Listview animation -->
     <string-array name="listview_animation_entries">
