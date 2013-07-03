@@ -6134,5 +6134,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="listview_anticipate_overshoot_interpolator">anticipate_overshoot_interpolator</string>
     <string name="listview_bounce_interpolator">bounce_interpolator</string>
 
+    <!-- vibrate during phone calls -->
+    <string name="notification_vibrate_during_calls_title">Vibrate during call</string>
+    <string name="notification_vibrate_during_calls_summary">Incoming notifications will softly vibrate during phone calls</string>
+
     <!-- **** C-ROM ADDITIONS END **** -->
 </resources>
