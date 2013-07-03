@@ -6104,5 +6104,11 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="profile_networkmode_3g">3G</string>
     <string name="profile_networkmode_2g3g">2G/3G</string>
 
+    <!-- GPS Source selection -->
+    <string name="location_gps_source_title">GPS source</string>
+    <string name="location_gps_source_summary">Choose to use either an external Bluetooth GPS antenna or the internal GPS antenna as location provider</string>
+    <string name="location_gps_source_notification_title">Alert</string>
+    <string name="location_gps_source_notification">The GPS source has been switched! GPS will be disabled. Please re-enable before use!</string>
+
     <!-- **** C-ROM ADDITIONS END **** -->
 </resources>
