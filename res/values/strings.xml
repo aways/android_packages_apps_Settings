@@ -1247,7 +1247,7 @@
     <string name="nfc_quick_toggle_summary" product="default">Allow data exchange when the phone touches another device</string>
 
     <!-- Used to enter the Android Beam sharing preferences screen. This phrase is a trademark. [CHAR LIMIT=32] -->
-    <string name="android_beam_settings_title">Android Beam</string>
+    <string name="android_beam_settings_title">Android beam</string>
     <!-- Used to describe the on state of the Android Beam feature [CHAR LIMIT=NONE] -->
     <string name="android_beam_on_summary">Ready to transmit app content via NFC</string>
     <!-- Used to describe the off state of the Android Beam feature [CHAR LIMIT=NONE] -->
@@ -3483,7 +3483,7 @@
     <!-- Title for the voice recognizer setting in voice input/output settings -->
     <string name="recognizer_title">Voice recognizer</string>
     <!-- Title for the link to settings for the chosen voice recognizer in voice input/output settings -->
-    <string name="recognizer_settings_title">Voice Search</string>
+    <string name="recognizer_settings_title">Voice search</string>
     <!-- Summary for the link to settings for the chosen voice recognizer in voice input/output settings.
          Would say something like, e.g., "Settings for 'Google'". -->
     <string name="recognizer_settings_summary">Settings for \'<xliff:g id="recognizer_name">%s</xliff:g>\'</string>
@@ -4590,10 +4590,10 @@
     <string name="interface_title">Interface</string>
     <string name="lock_screen_title">Lockscreen</string>
     <string name="navbar_title">Navigation</string>
-    <string name="power_menu_title">Power Menu</string>
-    <string name="power_widget_title">Power Widget</string>
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_widget_title">Power widget</string>
     <string name="status_bar_title">Statusbar</string>
-    <string name="toggles_title">Statusbar Toggles</string>
+    <string name="toggles_title">Statusbar toggles</string>
 
     <!-- Notification Drawer  -->
     <string name="notification_drawer_title">Notification drawer</string>
@@ -4613,12 +4613,12 @@
     <string name="notif_alpha_title">Notification Rows transparency</string>
 
     <!-- UI Mode -->
-    <string name="user_mode_ui">UI Mode</string>
+    <string name="user_mode_ui">UI mode</string>
     <string name="user_mode_ui_summary">What style to display NavBar and Statusbar\nChanges will force SystemUI Restart</string>
     <string name="phone_mode_ui">Phone - NavBar to side in landscape</string>
     <string name="tablet_mode_ui">Tablet - Combined NavBar and SystemBar</string>
     <string name="phablet_mode_ui">Phablet - NavBar stays at bottom in landscape</string>
-    <string name="hide_extras">Hide Extras</string>
+    <string name="hide_extras">Hide extras</string>
     <string name="hide_extras_summary">Hide some systembar stuff i.e. the compat. mode button(requires UI restart)</string>
 
     <!-- Menu Strings -->
@@ -4655,7 +4655,7 @@
     <string name="lockscreen_see_through_title">Lockscreen see through</string>
     <string name="lockscreen_see_through_summary">Allows you to see your homescreen behind the lock screen including apps.</string>
     <string name="lockscreen_all_widgets_title">Allow all widgets</string>
-    <string name="lockscreen_all_widgets_summary">Warning: Some widgets are not intended to be used on the lockscreen. Do not blame the widget maker or C-RoM if your widget misbehaves. Choose responsibly!</string>
+    <string name="lockscreen_all_widgets_summary">Warning: Some widgets are not intended to be used on the lockscreen. Do not blame the widget maker or Carbon if your widget misbehaves. Choose responsibly!</string>
     <string name="lockscreen_minimize_challenge_title">Maximize lockscreen widget</string>
     <string name="lockscreen_minimize_challenge_summary">Set whether the lockscreen widget is maximized when the screen is turned on.</string>
     <string name="lockscreen_battery_title">Lockscreen battery percentage</string>
@@ -4799,7 +4799,7 @@
     <string name="choose_ringtone">Choose Ringtone</string>
 
     <!-- Pie controls -->
-    <string name="pie_controls_title">Pie Controls</string>
+    <string name="pie_controls_title">Pie controls</string>
     <string name="pie_controls_summary">Allows navigation and status report</string>
     <string name="pie_targets_title">Targets</string>
     <string name="pie_gravity_title">Pie gravity</string>
@@ -4817,12 +4817,12 @@
     <string name="pie_size_title">Pie size</string>
     <string name="pie_size_summary">Define Pie controls size</string>
     <string name="pie_size_small">Small</string>
-    <string name="pie_size_default">Normal (Default)</string>
+    <string name="pie_size_default">Normal (default)</string>
     <string name="pie_size_large">Large</string>
     <string name="pie_size_gigantic">Gigantic</string>
-    <string name="pie_angle_title">Pie angle</string>
-    <string name="pie_angle_summary">Adjust the angle of pie\'s egdes from the attachment</string>
-    <string name="pie_angle_none">None (old)</string>
+    <string name="pie_angle_title">Bottom angle</string>
+    <string name="pie_angle_summary">Adjust the angle between screen\'s edge and pie</string>
+    <string name="pie_angle_none">None</string>
     <string name="pie_angle_small">Small</string>
     <string name="pie_angle_big">Normal (default)</string>
     <string name="pie_angle_huge">Big</string>
@@ -4847,7 +4847,7 @@
     <string name="pie_menu_summary">Whether or not the menu button will appear when unneeded</string>
     <string name="pie_search_title">Show search button</string>
     <string name="pie_search_summary">Access to GoogleNow via Pie</string>
-    <string name="pie_lastapp_title">Last App button</string>
+    <string name="pie_lastapp_title">Last app button</string>
     <string name="pie_lastapp_summary">Enable last app button on Pie</string>
     <string name="pie_killtask_title">Kill task button</string>
     <string name="pie_killtask_summary">Enable kill task button on Pie</string>
@@ -5012,14 +5012,13 @@
 
     <!-- Display : Rotation  -->
     <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_enabled">Enabled</string>
     <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">Degrees</string>
-    <string name="display_rotation_category_title">Rotation Modes</string>
-    <string name="display_rotation_0_title">0 Degrees</string>
-    <string name="display_rotation_90_title">90 Degrees</string>
-    <string name="display_rotation_180_title">180 Degrees</string>
-    <string name="display_rotation_270_title">270 Degrees</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
 
     <string name="increasing_ring_title">Ascending ringtone</string>
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
@@ -5051,9 +5050,9 @@
     <string name="volume_keys_control_ring_stream">Volume keys control ringtone volume</string>
 
     <!-- Status bar | Clock -->
-    <string name="status_bar_clock">Clock and Date</string>
-    <string name="status_bar_clock_title">Clock and Date Style</string>
-    <string name="clock_options">Clock Options</string>
+    <string name="status_bar_clock">Clock and date</string>
+    <string name="status_bar_clock_title">Clock and date style</string>
+    <string name="clock_options">Clock options</string>
     <string name="clock_title_enable">Clock alignment</string>
     <string name="clock_enabled">Enabled</string>
     <string name="clock_disabled">Disabled</string>
@@ -5213,7 +5212,7 @@
     <string name="headset_connect_player_title">Launch music app on connect</string>
     <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
     <string name="volume_ring_only_description">Ringtone</string>
-    <string name="ring_mode_title">Ring Mode</string>
+    <string name="ring_mode_title">Ring mode</string>
     <string name="ring_mode_normal">Normal</string>
     <string name="ring_mode_vibrate">Vibrate</string>
     <string name="ring_mode_mute">Mute</string>
@@ -5224,10 +5223,10 @@
 
     <!-- Interface -->
     <string name="hardware_keys_options_title">Hardware Keys</string>
-    <string name="custom_carrier_label_title">Carrier Label</string>
+    <string name="custom_carrier_label_title">Carrier label</string>
     <string name="custom_carrier_label_explain">Please enter a new label. Empty label to revert to stock</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="lcd_density_title">LCD Density</string>
+    <string name="lcd_density_title">LCD density</string>
     <string name="lcd_density_summary">unknown</string>
     <string name="dual_pane">Dual panel mode</string>
     <string name="dual_pane_summary">Restart settings to take effect</string>
@@ -5366,7 +5365,7 @@
     <string name="color_six">Color six</string>
 
     <!-- Hardware keys -->
-    <string name="hardware_keys_title">Hardware Keys</string>
+    <string name="hardware_keys_title">Hardware keys</string>
     <string name="hardware_keys_bindings_title">Key Actions</string>
     <string name="hardware_keys_enable_custom_title">Enable custom actions</string>
     <string name="hardware_keys_home_press_title">Home key</string>
@@ -5398,9 +5397,9 @@
     <string name="hardware_keys_action_camera">Camera</string>
     <string name="hardware_keys_action_quicksettings">Quicksettings panel</string>
 
-     <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
     <string name="navigation_bar">Navigation bar</string>
-    <string name="navbar_hide">NavBar hide Ootions</string>
+    <string name="navbar_hide">NavBar hide Options</string>
     <string name="navbar_option_cat">Options</string>
     <string name="navbar_button_cat">Buttons</string>
     <string name="navbar_color_cat">Colors and transparency</string>
@@ -5460,7 +5459,7 @@
     <string name="navigation_bar_menu_arrow_keys_summary">Show arrow keys in the navbar while typing</string>
     <string name="navigation_bar_alpha_title">Statusbar and navbar opacity</string>
     <string name="navbar_hide_enable_title">Hidden navbar enable</string>
-    <string name="systembar_hide_enable_title">Hidden systembar Eeable</string>
+    <string name="systembar_hide_enable_title">Hidden systembar Enable</string>
     <string name="drag_handle_opacity_title">Drag handle opacity</string>
     <string name="drag_handle_width_title">Drag handle width</string>
     <string name="title_navbar_timeout">Hidden navbar timeout</string>
@@ -5494,7 +5493,7 @@
     <string name="action_long_save"> set as long action</string>
     <string name="title_navring_amount">Number of navigation ring targets</string>
     <string name="summary_navring_amount">Choose number of targets in the navigation ring</string>
-    <string name="interface_navring_settings_title">Navigation Ring</string>
+    <string name="interface_navring_settings_title">Navigation ring</string>
     <string name="interface_navring_settings_summary">@null</string>
     <string name="navring_target_info">Drag your finger to targets to assign actions</string>
     <string name="navring_clear">Clear action</string>
@@ -5656,15 +5655,15 @@
     <string name="group_applications">Applications</string>
 
     <!-- Powerwidget  -->
-    <string name="title_expanded_widget">Powerwidget</string>
-    <string name="power_widget_buttons">Widget Buttons</string>
-    <string name="power_widget_behavior">Widget Behavior</string>
-    <string name="title_expanded_hide_onchange">Close Drawer (On Change)</string>
-    <string name="title_expanded_hide_indicator">Hide Indicators</string>
-    <string name="title_expanded_hide_scrollbar">Hide Scrollbar</string>
-    <string name="title_widget_picker">Widget Buttons</string>
+    <string name="title_expanded_widget">Power widget</string>
+    <string name="power_widget_buttons">Widget buttons</string>
+    <string name="power_widget_behavior">Widget behavior</string>
+    <string name="title_expanded_hide_onchange">Close drawer (on change)</string>
+    <string name="title_expanded_hide_indicator">Hide indicators</string>
+    <string name="title_expanded_hide_scrollbar">Hide scrollbar</string>
+    <string name="title_widget_picker">Widget buttons</string>
     <string name="summary_widget_picker">View or change the displayed buttons</string>
-    <string name="title_widget_order">Button Order</string>
+    <string name="title_widget_order">Button order</string>
     <string name="summary_widget_order">View or change the order of the buttons</string>
     <string name="title_buttons">Buttons</string>
     <string name="title_toggle_wifi">Wi-Fi</string>
@@ -5701,7 +5700,7 @@
     <string name="cm_sound_mode_sound">Sound</string>
     <string name="cm_sound_mode_soundVibrate">Sound &amp; Vibrate</string>
     <string name="pref_flash_mode_title">Flash Mode</string>
-    <string name="expanded_haptic_feedback_title">Haptic Feedback</string>
+    <string name="expanded_haptic_feedback_title">Haptic feedback</string>
     <string name="power_widget_additional_options_cat">Additional options</string>
     <string name="brightness_location_title">Brightness slider location</string>
     <string name="brightness_slider_top">On top</string>
@@ -5709,7 +5708,7 @@
     <string name="brightness_slider_none">Don\'t Show</string>
 
     <!-- Power menu enable disable -->
-    <string name="power_menu_reboot_title">Reboot Menu</string>
+    <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_torch_title">Torch</string>
     <string name="power_menu_expanded_desktop">Expanded desktop</string>
@@ -5734,10 +5733,10 @@
 
     <!-- Statusbar -->
     <string name="status_bar_general_title">General</string>
-    <string name="status_bar_toggle_brightness">Brightness Control</string>
+    <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across status bar</string>
     <string name="status_bar_toggle_info">Automatic brightness is enabled</string>
-    <string name="status_bar_signal_text_title">Signal Status</string>
+    <string name="status_bar_signal_text_title">Signal status</string>
     <string name="status_bar_style_icon">Icon</string>
     <string name="status_bar_style_hidden">Hidden</string>
     <string name="status_bar_signal_text_show_text">Text</string>
@@ -5746,7 +5745,7 @@
     <string name="status_bar_battery_status_circle_percentage">Circle (Percent)</string>
 
     <!-- Status bar notification count -->
-    <string name="status_bar_notif_count_title">Notification Count</string>
+    <string name="status_bar_notif_count_title">Notification count</string>
     <string name="status_bar_notif_count_summary">Display number of pending notifications</string>
 
     <!-- Wakeup options -->
@@ -5886,7 +5885,7 @@
     <string name="gestures_action_screenshot">Take a screenshot</string>
 
     <!-- Custom lock screen background -->
-    <string name="lockscreen_custom_background_title">Lockscreen Background</string>
+    <string name="lockscreen_custom_background_title">Lockscreen background</string>
     <string name="lockscreen_custom_background_dialog_title">Choose color</string>
     <string name="lockscreen_background_result_successful">Background changed successfully</string>
     <string name="lockscreen_background_result_not_successful">Background could not be changed</string>
@@ -5895,13 +5894,13 @@
     <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
 
     <!-- CRT --> 
-    <string name="system_power_crt_screen_off_title">CRT Screen Off</string>
-    <string name="system_power_crt_screen_off_summary">Screen will animate an Electron Beam when turned off</string>
-    <string name="system_power_crt_screen_on_title">CRT Screen On</string>
-    <string name="system_power_crt_screen_on_summary">Screen will animate an Electron Beam when turned on</string>
+    <string name="system_power_crt_screen_off_title">CRT screen off</string>
+    <string name="system_power_crt_screen_off_summary">Screen will animate an electron beam when turned off</string>
+    <string name="system_power_crt_screen_on_title">CRT screen on</string>
+    <string name="system_power_crt_screen_on_summary">Screen will animate an electron beam when turned on</string>
 
     <!-- Battery Icon and Bar -->
-    <string name="status_bar_battery_icon_bar_title">Battery Icon and Bar Style</string>
+    <string name="status_bar_battery_icon_bar_title">Battery icon and bar style</string>
     <string name="battery_icon_cat">Battery icon style</string>
     <string name="status_bar_battery_title">Battery icon style</string>
     <string name="title_statusbar_battery">Statusbar Battery</string>
@@ -5952,21 +5951,20 @@
     <string name="low_battery_warning_policy_disabled">Disabled</string>
 
     <!-- Status bar notification icon opacity -->
-    <string name="status_bar_icon_opacity">Notification Icon Opacity</string>
+    <string name="status_bar_icon_opacity">Notification icon opacity</string>
     <string name="status_bar_icon_opacity_summary">Sets opacity of status bar notification icons</string>
 
     <!-- TRDS Settings -->
     <string name="trds_settings_title">Dark C-RoM</string>
 
     <!-- Breathing Notifications -->
-    <string name="status_bar_breathing_notifs_title">Breathing Notifications</string>
+    <string name="status_bar_breathing_notifs_title">Breathing notifications</string>
     <string name="mms_breath">Breathing SMS</string>
     <string name="mms_breath_summary">Will give your sms notifications a breathing effect on the statusbar</string>
-    <string name="missed_call_breath">Breathing Missed Call</string>
+    <string name="missed_call_breath">Breathing missed call</string>
     <string name="missed_call_breath_summary">Will give your missed call notifications a breathing effect on the statusbar</string>
 
     <!-- Notification Behaviour -->
-    <string name="notification_behaviour_title">Notification Behaviour</string>
     <string name="notification_behaviour_title">Notification behaviour</string>
     <string name="notification_behaviour_normal">Normal</string>
     <string name="notification_behaviour_neverexpand">Never expand</string>
@@ -6042,7 +6040,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="vibration_title">Phone vibration</string>
     <string name="notification_convert_sound_to_vibration_title">Notification conversion</string>
     <string name="notification_convert_sound_to_vibration_summary">Sounds to vibrations during vibrate mode</string>
-
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
