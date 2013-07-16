@@ -6155,5 +6155,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="touchkey_timeout_alwayson">Always On</string>
     <string name="touchkey_timeout_alwaysoff">Always Off</string>
 
+    <!-- Screen-On Notification Light -->
+    <string name="screen_on_notification_led_title">Screen-On Notification Light</string>
+    <string name="screen_on_notification_led_summary">Enable Notification Light even when screen is on</string>
+
     <!-- **** C-ROM ADDITIONS END **** -->
 </resources>

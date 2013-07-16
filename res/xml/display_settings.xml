@@ -71,6 +71,12 @@
             android:entries="@array/entries_touchkey_timeout"
             android:entryValues="@array/values_touchkey_timeout" />
 
+        <CheckBoxPreference
+            android:key="screen_on_notification_led"
+            android:title="@string/screen_on_notification_led_title"
+            android:summary="@string/screen_on_notification_led_summary"
+            android:defaultValue="true" />
+
         <PreferenceScreen
                 android:key="wifi_display"
                 android:title="@string/wifi_display_settings_title"

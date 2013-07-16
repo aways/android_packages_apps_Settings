@@ -65,6 +65,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_NOTIFICATION_PULSE = "notification_pulse";
     private static final String KEY_BATTERY_LIGHT = "battery_light";
     private static final String KEY_TOUCHKEY_LIGHT = "touchkey_light_timeout";
+    private static final String KEY_SCREEN_ON_NOTIFICATION_LED = "screen_on_notification_led";
 
 
     // Strings used for building the summary
@@ -83,6 +84,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private PreferenceScreen mNotificationPulse;
     private PreferenceScreen mBatteryPulse;
     private ListPreference mTouchKeyLights;
+    private CheckBoxPreference mScreenOnNotificationLed;
 
 
     private final Configuration mCurConfig = new Configuration();
@@ -168,6 +170,12 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mTouchKeyLights.setSummary(mTouchKeyLights.getEntry());
             mTouchKeyLights.setOnPreferenceChangeListener(this);
         }
+
+            int statusScreenOnNotificationLed = Settings.System.getInt(getContentResolver(),
+                    Settings.System.SCREEN_ON_NOTIFICATION_LED, 1);
+            mScreenOnNotificationLed = (CheckBoxPreference) findPreference(KEY_SCREEN_ON_NOTIFICATION_LED);
+            mScreenOnNotificationLed.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
+                   Settings.System.SCREEN_ON_NOTIFICATION_LED, 0) == 1);
 
         mDisplayManager = (DisplayManager)getActivity().getSystemService(
                 Context.DISPLAY_SERVICE);
@@ -297,6 +305,16 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
         screenTimeoutPreference.setEnabled(revisedEntries.size() > 0);
     }
+
+    @Override
+      public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        if (preference == mScreenOnNotificationLed) {
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.SCREEN_ON_NOTIFICATION_LED,
+                    mScreenOnNotificationLed.isChecked() ? 1 : 0);
+        }
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
+    } 
 
     private void updateLightPulseDescription() {
         if (Settings.System.getInt(getActivity().getContentResolver(),
