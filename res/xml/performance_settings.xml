@@ -50,4 +50,8 @@
         android:entries="@array/dithering_entries"
         android:entryValues="@array/dithering_values"/>
 
+    <CheckBoxPreference
+        android:key="pref_disable_wallpaperservice"
+        android:title="@string/pref_disable_wallpaperservice_title"
+        android:summary="@string/pref_disable_wallpaperservice_summary" />
 </PreferenceScreen>

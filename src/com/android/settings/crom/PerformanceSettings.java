@@ -45,9 +45,17 @@ public class PerformanceSettings extends SettingsPreferenceFragment
 
     private static final String USE_16BPP_ALPHA_PROP = "persist.sys.use_16bpp_alpha";
 
+    private static final String DISABLE_WALLPAPER_PREF = "pref_disable_wallpaperservice";
+
+    private static final String DISABLE_WALLPAPER_PERSIST_PROP = "persist.sys.wallpaperservice";
+
+    private static final String DISABLE_WALLPAPER_DEFAULT = "1";
+
     private ListPreference mUseDitheringPref;
 
     private CheckBoxPreference mUse16bppAlphaPref;
+
+    private CheckBoxPreference mDisableWallpaperPref;
 
     private AlertDialog alertDialog;
 
@@ -70,6 +78,12 @@ public class PerformanceSettings extends SettingsPreferenceFragment
             mUse16bppAlphaPref = (CheckBoxPreference) prefSet.findPreference(USE_16BPP_ALPHA_PREF);
             String use16bppAlpha = SystemProperties.get(USE_16BPP_ALPHA_PROP, "0");
             mUse16bppAlphaPref.setChecked("1".equals(use16bppAlpha));
+
+            mDisableWallpaperPref = (CheckBoxPreference) prefSet
+                    .findPreference(DISABLE_WALLPAPER_PREF);
+            String disableWallpaper = SystemProperties.get(DISABLE_WALLPAPER_PERSIST_PROP,
+                    DISABLE_WALLPAPER_DEFAULT);
+            mDisableWallpaperPref.setChecked("0".equals(disableWallpaper));
 
             /* Display the warning dialog */
             alertDialog = new AlertDialog.Builder(getActivity()).create();
@@ -96,6 +110,10 @@ public class PerformanceSettings extends SettingsPreferenceFragment
         if (preference == mUse16bppAlphaPref) {
             SystemProperties.set(USE_16BPP_ALPHA_PROP,
                     mUse16bppAlphaPref.isChecked() ? "1" : "0");
+
+        } else if (preference == mDisableWallpaperPref) {
+            SystemProperties.set(DISABLE_WALLPAPER_PERSIST_PROP,
+                    mDisableWallpaperPref.isChecked() ? "0" : "1");
         } else {
             // If we didn't handle it, let preferences handle it.
             return super.onPreferenceTreeClick(preferenceScreen, preference);

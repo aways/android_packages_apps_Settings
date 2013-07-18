@@ -6083,6 +6083,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="clear_recents_position_left">Left</string>
     <string name="clear_recents_position_right">Right</string>
 
+    <!-- Disable wallpaper service -->
+    <string name="pref_disable_wallpaperservice_title">Disable wallpaper service</string>
+    <string name="pref_disable_wallpaperservice_summary">Disable wallpaper to reduce SystemUI memory usage (requires reboot)</string>
+
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
     <string name="privacy_guard_dlg_title">Enable Privacy Guard?</string>
